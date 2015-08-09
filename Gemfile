@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
 
 
-
+ruby "2.2.2"
 gem 'rails', '4.2.1'
-gem 'sqlite3'
 gem 'sass-rails', '>= 4.0.3'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'uglifier', '>= 1.3.0'
