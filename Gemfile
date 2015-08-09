@@ -11,8 +11,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',       group: :doc
-gem 'byebug'
-gem 'web-console', '~> 2.0'
+#gem 'byebug'
+#gem 'web-console', '~> 2.0'
 gem 'spring',                 group: :development
 
 group :development, :test do
