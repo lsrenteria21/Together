@@ -1,28 +1,24 @@
-== README
+testing specs for recipes:
+name: string
+summary: text
+description: text
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- athletename must be present
+- athletename must be between 5 charaters and less than 100 charaters
+- summary must be present
+- summary must be between 10 charaters and less than 150 charaters
+- description must be present
+- description must be between 20 and 500 charaters
+- athlete_id must be present
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+testing specs for athletes:
+athletename: string
+email: string
+
+- athletename must be present
+- athletename must be between 3 charaters and less than 40 charaters
+- email must be present
+- email mus be unique (since we'll use this for logins later)
+- email must be valid 

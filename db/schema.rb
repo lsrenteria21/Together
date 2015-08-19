@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150817183153) do
+ActiveRecord::Schema.define(version: 20150819153815) do
 
   create_table "athletes", force: :cascade do |t|
     t.string   "athletename"
@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 20150817183153) do
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "athlete_id"
   end
 
 end
